@@ -55,10 +55,6 @@ h1, h2, h3, p {
    margin: 0;
 }
 
-h2 {
-    font-size: 30px;
-}
-
 main {
     margin: 0 20px 0 20px;
 }
@@ -149,7 +145,7 @@ footer {
 }
 
 .item h3 {
-      font-size: 18px;
+      font-size: 1.5vw;
   }
 
 /*first project*/
@@ -198,3 +194,46 @@ footer {
     /*SIZE IMAGE TO FILL ITEM BOX NO REPEAT*/
     background-size: contain;
 }
+/*responsive viewports*/
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        text-align: center;
+      }
+    
+    header h1 {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 6vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+
+    .psection > h2 {
+      
+      border-bottom: 3px solid var(--high);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 4vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .item:first-child {
+      min-height: 150px;
+    }
+  
+    .background {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  

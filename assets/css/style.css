@@ -1,0 +1,200 @@
+:root {
+    --backg: #fdf8f5;
+    --text: #4f4846;
+    --high: #1c6261;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0 ;
+    padding: 0;
+    position: relative ;
+    font-size: 16px;
+    background-color: var(--backg);
+    color: var(--text); 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: underline var(--high);
+    color: var(--backg);
+    margin-right: 10px;
+    font-size: 18px;
+}
+nav a:hover {
+    background-size: 100%;
+    color: var(--high);
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(161, 160, 160);
+    color: var(--backg) ;
+    padding: 20px;
+    align-items: center;
+}
+header h1 {
+    padding: 5px;
+    background-color: var(--high);
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h1, h2, h3, p {
+   margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+main {
+    margin: 0 20px 0 20px;
+}
+
+span {
+    font-size: 12px;
+}
+
+footer {
+    justify-content: right;
+}
+
+/*class selectors*/
+.background {
+    background-image: url(../Images/backg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.background h2 {
+    padding: 5px 5px;
+}
+
+.align {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.psection {
+    margin: 20px 20px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.psection > div {
+    flex: 0 0 85%;
+  }
+
+.psection p {
+    margin-bottom: 20px;
+  }
+
+.address a {
+    padding: 20px 20px;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+.contact {
+    background-color: aliceblue;
+}
+
+.center {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.item {
+    border: 6px solid var(--high);
+    color: gray;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.item h3 {
+      font-size: 18px;
+  }
+
+/*first project*/
+.item:first-child {
+      min-height: 300px;
+      flex-basis: 100%;
+  }
+  
+.item:hover {
+    background-color: rgb(161, 160, 160);
+  }
+
+.item div {
+    background-color: var(--backg);
+    padding: 8px 10px;
+  }
+
+/*item images and styling*/
+.fan {
+    background-image: url("../Images/fanpage.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+
+.refactor {
+    background-image: url("../Images/refactor.jpeg");
+    /*SIZE IMAGE TO FILL ITEM BOX NO REPEAT*/
+    background-size: contain;
+    background-position: center;
+}
+
+.landing {
+    background-image: url("../Images/landing.jpeg");
+    background-size: contain;
+    background-repeat:round;
+}
+
+.snippet {
+    background-image: url("../Images/snippet.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.place {
+    background-image: url("../Images/place.png");
+    /*SIZE IMAGE TO FILL ITEM BOX NO REPEAT*/
+    background-size: contain;
+}

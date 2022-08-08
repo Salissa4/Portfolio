@@ -10,8 +10,6 @@
 }
 
 body {
-    margin: 0 ;
-    padding: 0;
     position: relative ;
     font-size: 16px;
     background-color: var(--backg);
@@ -47,7 +45,6 @@ header, footer {
 header h1 {
     padding: 5px;
     background-color: var(--high);
-    margin: 0;
     font-size: 2.5rem;
 }
 
@@ -84,10 +81,9 @@ footer {
 }
 
 .align {
-    max-width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .psection {
     margin: 20px 20px;
@@ -107,14 +103,14 @@ footer {
     margin-bottom: 20px;
   }
 
-.address a {
+address a {
     padding: 20px 20px;
-    font-size: 16px;
+    font-size: 20px;
     display: inline-block;
   }
 
 .contact {
-    background-color: aliceblue;
+    background-color: rgb(226, 234, 240);
 }
 
 .center {
@@ -138,9 +134,7 @@ footer {
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
-    background-blend-mode: soft-light;
     background-size: 150%;
-    transition: all 0.5s;
     font-size: 0.9rem;
 }
 
@@ -156,11 +150,12 @@ footer {
   
 .item:hover {
     background-color: rgb(161, 160, 160);
+    transform: scale(1.1);
   }
 
 .item div {
     background-color: var(--backg);
-    padding: 8px 10px;
+    padding: 8px 8px;
   }
 
 /*item images and styling*/
@@ -202,7 +197,7 @@ footer {
       }
     
     header h1 {
-      width: 100%;
+      width: 75%;
       padding: 10px;
       margin-bottom: 10px;
       font-size: 6vw;
@@ -213,7 +208,6 @@ footer {
     }
 
     .psection > h2 {
-      
       border-bottom: 3px solid var(--high);
       margin-bottom: 10px;
       padding-bottom: 10px;

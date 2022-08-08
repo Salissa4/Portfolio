@@ -161,13 +161,13 @@ address a {
 /*item images and styling*/
 .fan {
     background-image: url("../Images/fanpage.jpg");
-    background-size: contain;
-    background-repeat: round;
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 .refactor {
     background-image: url("../Images/refactor.jpeg");
-    /*SIZE IMAGE TO FILL ITEM BOX NO REPEAT*/
     background-size: contain;
     background-position: center;
 }
@@ -186,8 +186,9 @@ address a {
 
 .place {
     background-image: url("../Images/place.png");
-    /*SIZE IMAGE TO FILL ITEM BOX NO REPEAT*/
-    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /*responsive viewports*/
 @media screen and (max-width: 980px) {

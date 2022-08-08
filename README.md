@@ -21,7 +21,7 @@ Actions:
 
 https://salissa4.github.io/Portfolio/
 
-<img src="./assets/images/portfolio.jpeg">
+<img src="./assets/Images/portfolio.jpeg">
 
 ## Credits
 

@@ -5,7 +5,7 @@
 Goal: Create a portfolio webpage 
 
 Actions:
-1. Build a portfolio webpage that highights developers projects for potential employers
+1. Build a portfolio webpage that highlights developers projects for potential employers
 2. Include developers name, photo/avatar, links to sections: about developer, projects, and contact information
 3. Structure HTML & CSS to flow logically
 4. Ensure functionality of all links: navigation, projects and contact

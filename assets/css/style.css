@@ -159,21 +159,21 @@ address a {
   }
 
 /*item images and styling*/
-.fan {
-    background-image: url("../Images/fanpage.jpg");
-    background-size: 50%;
+.oop {
+    background-image: url("../Images/oop.png");
+    background-size: 125%;
     background-repeat:no-repeat;
     background-position: center;
 }
 
-.refactor {
+.readme {
     background-image: url("../Images/refactor.jpeg");
     background-size: contain;
     background-position: center;
 }
 
-.landing {
-    background-image: url("../Images/landing.jpeg");
+.weather {
+    background-image: url("../Images/weather.jpeg");
     background-size: contain;
     background-repeat:round;
 }
@@ -184,8 +184,8 @@ address a {
     background-position: center;
 }
 
-.place {
-    background-image: url("../Images/place.png");
+.javascript {
+    background-image: url("../Images/js.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
